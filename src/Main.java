@@ -30,9 +30,9 @@ public class Main {
                 } else {
                     System.out.println("The greatest number is = " + c ) ;
                 }
-// Question 3: Take a number between 1 and 7 and display the weekday name
-                System.out.println("Enter a number (1-7) ");
-                int number = input.nextInt();
+// Question 3: Generate an integer between 1 and 7 and display the name of the weekday
+                int number = (int) (Math.random() * 7) + 1;
+                System.out.println("Generated number: " + number);
                 String weekday ;
 
                 switch (number) {
